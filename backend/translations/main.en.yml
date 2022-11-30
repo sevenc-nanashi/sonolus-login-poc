@@ -1,0 +1,20 @@
+welcome_title: Welcome to authorization server!
+welcome_description: Tap [ Search ] to enter your code.
+
+level_info_title: Tap [ Search ] to enter your code.
+level_info_description: Do not use code from others!
+
+search_invalid_title: Invalid code.
+search_invalid_description: The code must be 8 digits long.
+
+search_confirm_title: Login with [ %{code} ] ?
+search_confirm_description: Do not use code from others! Tap to continue.
+
+login_success_title: Successfully logged in!
+login_success_description: Please return to your browser.
+
+login_failure_title: Failed to log in.
+login_failure_description: Your code may be expired, or you may mistyped the code.
+
+search_title: Code
+search_description: Type the code shown in your browser.

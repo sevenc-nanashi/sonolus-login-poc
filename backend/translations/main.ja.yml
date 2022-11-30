@@ -1,0 +1,20 @@
+welcome_title: ログインサーバーへようこそ！
+welcome_description: "[ 検索 ] ボタンでコードを入力します。"
+
+level_info_title: "[ 検索 ] ボタンでコードを入力します。"
+level_info_description: 他人から貰ったコードは使用しないで下さい！
+
+search_invalid_title: 無効なコードです。
+search_invalid_description: コードは8桁の数字で構成されています。
+
+level_confirm_title: "[ %{code} ] にログインしますか？"
+level_confirm_description: 他人から貰ったコードは使用しないで下さい！タップしてログインします。
+
+login_success_title: ログインしました！
+login_success_description: ブラウザに戻って下さい。
+
+login_failure_title: ログインに失敗しました。
+login_failure_description: コードが間違っている、または期限切れです。
+
+search_title: コード
+search_description: 画面に表示されているコードを入力して下さい。
