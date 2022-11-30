@@ -7,8 +7,8 @@ level_info_description: 他人から貰ったコードは使用しないで下�
 search_invalid_title: 無効なコードです。
 search_invalid_description: コードは8桁の数字で構成されています。
 
-level_confirm_title: "[ %{code} ] にログインしますか？"
-level_confirm_description: 他人から貰ったコードは使用しないで下さい！タップしてログインします。
+search_confirm_title: "[ %{code} ] にログインしますか？"
+search_confirm_description: 他人から貰ったコードは使用しないで下さい！タップしてログインします。
 
 login_success_title: ログインしました！
 login_success_description: ブラウザに戻って下さい。

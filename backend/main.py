@@ -182,7 +182,7 @@ async def sonolus_auth(
         raise HTTPException(status_code=401, detail="Invalid session")
 
 
-@app.get("/sonolus/levels/list")
+@app.get("/sonolus/levels/list", dependencies=[Depends(sonolus_locale)])
 async def sonolus_levels(
     code: Optional[str] = None,
     sonolus_session_id: Optional[str] = Header(None),
@@ -214,7 +214,7 @@ async def sonolus_levels(
         }
 
 
-@app.get("/sonolus/levels/login-{code}")
+@app.get("/sonolus/levels/login-{code}", dependencies=[Depends(sonolus_locale)])
 async def sonolus_level(
     code: str,
     sonolus_session_id: Optional[str] = Header(None),

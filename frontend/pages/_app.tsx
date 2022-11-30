@@ -30,6 +30,7 @@ function App({ Component, pageProps }: AppProps) {
     }).then(async (res) => {
       if (!res.ok) {
         window.sessionStorage.removeItem("session")
+        setSession(null)
         return
       }
       const profile = await res.json()
