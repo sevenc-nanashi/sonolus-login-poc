@@ -7,32 +7,6 @@ import Highlight from "react-highlight"
 import "highlight.js/styles/github.css"
 import { useTranslation } from "react-i18next"
 
-export const translations = {
-  ja: {
-    description: "これはSonolusでログインを実装するためのPoCです。",
-
-    loggedIn: "ログインしています！",
-    helloBefore: "こんにちは、",
-    helloAfter: "さん！",
-    logout: "ログアウト",
-
-    notLoggedIn: "ログインしていません。",
-    loginDescription: "次のボタンを押してログインしましょう！",
-    login: "Sonolusでログイン",
-  },
-  en: {
-    description: "This is a PoC for implementing login in Sonolus.",
-    loggedIn: "You are logged in!",
-    helloBefore: "Hello, ",
-    helloAfter: "!",
-    logout: "Logout",
-
-    notLoggedIn: "You are not logged in.",
-    loginDescription: "Press the button to login!",
-    login: "Login with Sonolus",
-  },
-}
-
 const Home: NextPage = () => {
   const { t } = useTranslation("index")
   return (

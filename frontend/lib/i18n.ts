@@ -31,7 +31,7 @@ i18n.use(initReactI18next).init({
     },
     en: {
       index: {
-        description: "This is a PoC for implementing login in Sonolus.",
+        description: 'This is a PoC for implementing "login with Sonolus."',
         loggedIn: "You are logged in!",
         helloBefore: "Hello, ",
         helloAfter: "!",
